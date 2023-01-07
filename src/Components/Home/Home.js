@@ -50,7 +50,9 @@ const Home = () => {
           <div className="flexbox shop" id='inspiration'>
             <img src={inspiration} alt='inspiration'></img>
             <p>inspiration sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
-            <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'><button onclick="this.focus()" className="learn-more inspired ">Get Inspired</button></a>
+            <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'>
+              <button onclick="this.focus()" className="learn-more inspired ">
+                Get Inspired</button></a>
           </div>
         </div>
 
@@ -72,7 +74,7 @@ const Home = () => {
             <img src={miniature} alt="story start" className="story-img" />
             <h2 className="story-heading">Our Miniatures</h2>
             <p className="story-text">
-              We started in the '70s as Stewart Brothers Coffee, brewing surprisingly smooth coffee with just a 12-pound peanut roaster on Seattle's Pier 70.
+            Get ready to be charmed by miniature furniture! These tiny pieces add endless cuteness to your dollhouse or model setup. From miniature sofas and bedroom sets to tiny kitchen appliances, each miniature piece is crafted with intricate detail and provides a fun challenge for collectors and hobbyists. Plus, with miniature furniture, you can let your creativity shine as you design and decorate the perfect miniature home.
             </p>
           </div>
         </div>
@@ -80,9 +82,9 @@ const Home = () => {
         <div className="story-bg ship">
           <div className="story-row textLeft">
             <img src={why}alt="story ship" className="story-img floatRight" />
-            <h2 className="story-heading">Why Miniatures ?</h2>
+            <h2 className="story-heading" id='color-correct'>Why Miniatures ?</h2>
             <p className="story-text">
-              Our passion for miniatures runs deep. It's a great way to be creative and let your imagination run. We enjoy bringing life to smaller items.
+            Miniature furniture is important for a few reasons. It adds character and realism to a dollhouse or model setup, providing a more immersive experience. It also serves as a fun and challenging hobby for collectors and enthusiasts, as they search for and arrange the perfect pieces in their miniature world. Finally, miniature furniture allows for creativity and design, as individuals can decorate and create their dream miniature home.
             </p>
           </div>
         </div>
@@ -92,7 +94,7 @@ const Home = () => {
             <img src={creative} alt="story seattle" className="story-img" />
             <h2 className="story-heading creative">Be Creative</h2>
             <p className="story-text creative">
-              We entered a competition to name the “best cup of coffee in Seattle," and when our notably smooth taste earned us the coffee crown, we changed our name to Seattle’s Best Coffee.
+            Creating and designing with miniature furniture can be a great creative outlet as it allows individuals to let their imagination run wild and design the miniature world of their dreams. It also provides a fun and challenging hobby as collectors and enthusiasts can search for and arrange the perfect pieces to complete their miniature home. Miniature furniture allows for endless possibilities and encourages individuals to think outside the box and get creative with their design choices.
             </p>
           </div>
         </div>
@@ -102,7 +104,7 @@ const Home = () => {
             <img src={academic} alt="story cat" className="story-img floatRight" />
             <h2 className="story-heading">Academic Projects</h2>
             <p className="story-text">
-              Our inaugural signature blend was named for a cat named Henry who liked to warm up next to the roasters. Henry's Blend® became the first of the excellent Seattle's Best Coffee roasts and flavors that followed.
+            Miniature furniture can be an important tool in academic projects for a few reasons. It can be used as a teaching aid to help students visualize and understand historical time periods or design concepts. It can also be used by architecture or design students as part of their project planning and prototyping process. Additionally, miniature furniture can be used as part of a research project, such as studying the evolution of furniture design over time or the cultural significance of certain pieces.
             </p>
           </div>
         </div>
@@ -110,9 +112,9 @@ const Home = () => {
         <div className="story-bg bag">
           <div className="story-row">
             <img src={thanks} alt="story bag" className="story-img" />
-            <h2 className="story-heading">Thank you</h2>
+            <h2 className="story-heading color-correct">Thank you</h2>
             <p className="story-text">
-              In the more than 45 years since, it's been a labor of love. We've perfected our signature roasting process while living up to our name and staying true to our roots in stores across the country.
+            Thank you so much for visiting my website and checking out my adorable miniature furniture collection! I hope you found something that makes you smile, and that you'll come back to see what's new in the miniature world soon.
             </p>
           </div>
         </div>
