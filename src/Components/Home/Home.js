@@ -37,27 +37,30 @@ const Home = () => {
       <div className="main__content-flex">
 
         <div className="flex-container" id='shop'>
-        <a href='https://www.etsy.com/shop/CozyCottageMiniature?ref=simple-shop-header-name&listing_id=1385277771' target='_blank' rel='noreferrer'><button onclick="this.focus()" className="learn-more">View Shop</button></a>
           <div className="flexbox shop">
             <img src={shop} alt='shop'></img>
             <p>shopping sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
+            <a href='https://www.etsy.com/shop/CozyCottageMiniature?ref=simple-shop-header-name&listing_id=1385277771' target='_blank' rel='noreferrer'>
+              <button onclick="this.focus()" className="learn-more">
+                View Shop</button></a>
           </div>
         </div>
 
         <div className="flex-container" id='inspired'>
-        <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'><button onclick="this.focus()" className="learn-more inspired">Get Inspired</button></a>
           <div className="flexbox shop" id='inspiration'>
             <img src={inspiration} alt='inspiration'></img>
             <p>inspiration sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
-
+            <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'><button onclick="this.focus()" className="learn-more inspired ">Get Inspired</button></a>
           </div>
         </div>
 
         <div className="flex-container" id='follow'>
-          <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'><button onclick="this.focus()" className="learn-more">Follow Us</button></a>
           <div className="flexbox shop">
             <img src={follow} alt='follow'></img>
-            <p>follow sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
+            <p >follow sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
+          <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'>
+          <button onclick="this.focus()" className="learn-more">
+            Follow Us</button></a>
           </div>
         </div>
       </div>
