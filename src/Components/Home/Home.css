@@ -298,12 +298,6 @@ a {
     overflow: hidden;
 }
 
-
-
-.creative{
-    color:var(--brownHoverColor)
-}
-
 .learn-more{
     width: 50%;
 }
@@ -329,6 +323,7 @@ a {
   min-height: 100vh;
   margin-top: 5rem;
   line-height: 2;
+  font-weight: 900;
 }
 
 .story-bg {
@@ -337,20 +332,36 @@ a {
   margin: 0 auto;
 }
 
-.story-bg.ship {
-  background-color: var(--brownHoverColor);
+.ours{
+    background: rgb(238,214,196);
+    background: linear-gradient(0deg, rgba(238,214,196,1) 0%, rgba(255,243,228,1) 41%);
 }
 
-.story-bg.seattle {
-  background-color: var(--brownColor);
+.story-bg.why {
+    background: rgb(238,214,196);
 }
 
-.story-bg.cat {
-    background-color: var(--brownHoverColor);
+.story-bg.creative {
+    background: rgb(107,79,79);
+    background: linear-gradient(0deg, rgba(107,79,79,1) 2%, rgba(238,214,196,1) 100%);}
+
+
+.story-bg.academic {
+    background: rgb(72,52,52);
+    background: linear-gradient(0deg, rgb(119, 86, 86) 0%, rgba(107,79,79,1) 100%);
+
 }
 
-.story-bg.bag {
-    background-color: var(--lightBrown);
+
+.professional{
+    background: rgb(107,79,79);
+    font-weight: 900;
+    background: linear-gradient(0deg, rgb(116, 88, 88) 0%, rgba(119,86,86,1) 100%);}
+
+
+.story-bg.thanks{
+    background: rgb(238,214,196);
+    background: linear-gradient(0deg, rgba(238,214,196,1) 0%, rgb(117, 88, 88) 100%);
 }
 
 .story-row {
@@ -365,9 +376,8 @@ a {
 
 .story-img {
   width: 25rem;
+  margin: 0 auto;
   float: left;
-  -webkit-transform: translate(-2rem, -3rem);
-  transform: translate(-2rem, -3rem);
 }
 
 .story-img.floatRight {
@@ -386,18 +396,20 @@ a {
 
 /* CONTACT SECTION */
 
-.content-container{
-    height: 100%;
-}
+
 
 .content-container h1{
-    padding-top: 10%;
+    padding-top: 25%;
+    background: none;
+    background: rgb(255,243,228);
+    background: linear-gradient(0deg, rgba(255,243,228,1) 0%, rgb(241, 213, 195) 100%);
 }
 
 .contact-section {
   position: relative;
   background-color: inherit;
   min-height: 50vh;
+  padding-top: 2rem;
 }
 
 .contact-text {
@@ -417,7 +429,6 @@ a {
     scale: 1.15;
     cursor: default;
 }
-
 
 
 #form {
@@ -550,9 +561,6 @@ a {
     clear: both;
   }
 
-  #color-correct{
-    color: red;
-  }
 
   .heading-primary-main {
     display: block;
