@@ -40,7 +40,9 @@ const Home = () => {
         <div className="flex-container" id='shop'>
           <div className="flexbox shop">
             <img src={shop} alt='shop'></img>
-            <p>shopping sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
+            <p>
+              Come visit our shop and browse through our unique selection of items!
+            </p>
             <a href='https://www.etsy.com/shop/CozyCottageMiniature?ref=simple-shop-header-name&listing_id=1385277771' target='_blank' rel='noreferrer'>
               <button onclick="this.focus()" className="learn-more">
                 View Shop</button></a>
@@ -50,8 +52,10 @@ const Home = () => {
         <div className="flex-container" id='inspired'>
           <div className="flexbox shop" id='inspiration'>
             <img src={inspiration} alt='inspiration'></img>
-            <p>inspiration sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
-            <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'>
+            <p>
+              Check out our inspiration board for some creative ideas and inspiration for your next project or event!           
+            </p>
+            <a href='https://www.instagram.com/cozycottageminiatures/' target='_blank' rel='noreferrer'>
               <button onclick="this.focus()" className="learn-more inspired ">
                 Get Inspired</button></a>
           </div>
@@ -60,7 +64,9 @@ const Home = () => {
         <div className="flex-container" id='follow'>
           <div className="flexbox shop">
             <img src={follow} alt='follow'></img>
-            <p >follow sentence lorem inlsum asfl;jsl;kfjs;lfjl;skjfsf;kljsflk;j</p>
+            <p>
+              Follow us to stay up-to-date on our latest products, sales, and more!            
+            </p>
           <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'>
           <button onclick="this.focus()" className="learn-more">
             Follow Us</button></a>
@@ -70,12 +76,12 @@ const Home = () => {
 
 
       <div className="story-wrap">
-        <div className="story-bg ours">
+        <div className="story-bg ours" id='shop-img'>
           <div className="story-row">
             <img src={miniature} alt="story start" className="story-img" />
             <h2 className="story-heading">Our Miniatures</h2>
             <p className="story-text">
-            Get ready to be charmed by miniature furniture! These tiny pieces add endless cuteness to your dollhouse or model setup. From miniature sofas and bedroom sets to tiny kitchen appliances, each miniature piece is crafted with intricate detail and provides a fun challenge for collectors and hobbyists. Plus, with miniature furniture, you can let your creativity shine as you design and decorate the perfect miniature home.
+              Get ready to be charmed by miniature furniture! These tiny pieces add endless cuteness to your dollhouse or model setup. From miniature sofas and bedroom sets to tiny kitchen appliances, each miniature piece is crafted with intricate detail and provides a fun challenge for collectors and hobbyists. Plus, with miniature furniture, you can let your creativity shine as you design and decorate the perfect miniature home.
             </p>
           </div>
         </div>
@@ -85,16 +91,15 @@ const Home = () => {
             <img src={why}alt="story why" className="story-img floatRight" />
             <h2 className="story-heading" id='color-correct'>Why Miniatures ?</h2>
             <p className="story-text">
-            Miniature furniture is important for a few reasons. It adds character and realism to a dollhouse or model setup, providing a more immersive experience. It also serves as a fun and challenging hobby for collectors and enthusiasts, as they search for and arrange the perfect pieces in their miniature world. Finally, miniature furniture allows for creativity and design, as individuals can decorate and create their dream miniature home.
+            Miniature furniture is important for a few reasons. It also serves as a fun and challenging hobby for collectors and enthusiasts, as they search for and arrange the perfect pieces in their miniature world. Finally, miniature furniture allows for creativity and design, as individuals can decorate and create their dream miniature home.
             </p>
           </div>
         </div>
 
-        <div className="story-bg creative ">
+        <div className="story-bg creative">
           <div className="story-row">
             <img src={creative} alt="story creative" className="story-img" />
-            <h2>#1</h2>
-            <h2 className="story-heading" id='creative'>Be Creative</h2>
+            <h2 className="story-heading" id='creative'>Creativity</h2>
             <p className="story-text creative">
             Creating and designing with miniature furniture can be a great creative outlet as it allows individuals to let their imagination run wild and design the miniature world of their dreams. It also provides a fun and challenging hobby as collectors and enthusiasts can search for and arrange the perfect pieces to complete their miniature home. Miniature furniture allows for endless possibilities and encourages individuals to think outside the box and get creative with their design choices.
             </p>
@@ -104,7 +109,6 @@ const Home = () => {
         <div className="story-bg academic">
           <div className="story-row textLeft">
             <img src={academic} alt="story academic" className="story-img floatRight" />
-            <h2>#2</h2>
             <h2 className="story-heading" id='academic'>Academic Projects</h2>
             <p className="story-text">
             Miniature furniture can be an important tool in academic projects for a few reasons. It can be used as a teaching aid to help students visualize and understand historical time periods or design concepts. It can also be used by architecture or design students as part of their project planning and prototyping process. Additionally, miniature furniture can be used as part of a research project, such as studying the evolution of furniture design over time or the cultural significance of certain pieces.
@@ -115,10 +119,9 @@ const Home = () => {
         <div className="story-bg professional">
           <div className="story-row">
             <img src={professional} alt="story professional" className="story-img" />
-            <h2>#3</h2>
             <h2 className="story-heading">Professional Presentations</h2>
             <p className="story-text">
-            Miniature furniture can be an important tool in academic projects for a few reasons. It can be used as a teaching aid to help students visualize and understand historical time periods or design concepts. It can also be used by architecture or design students as part of their project planning and prototyping process. Additionally, miniature furniture can be used as part of a research project, such as studying the evolution of furniture design over time or the cultural significance of certain pieces.
+              Miniature furniture can be a valuable tool for professional presentations. It allows you to effectively communicate design ideas and plans on a small scale, making it easier for clients to envision the finished product. Additionally, using miniature furniture can help to save time and resources during the planning process.            
             </p>
           </div>
         </div>

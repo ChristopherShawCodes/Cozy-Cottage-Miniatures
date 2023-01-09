@@ -83,6 +83,12 @@ body {
   scrollbar-width: none; 
 }
 
+img{
+    width: 100%;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+}
+
 
 h1 {
   text-transform: uppercase;
@@ -157,7 +163,6 @@ a {
 
 #header-img {
   height: 15rem;
-  margin-bottom: 1rem;
   scale: 2;
 }
 
@@ -244,8 +249,8 @@ a {
 .flexbox {
   border-radius: 1rem;
   border: 0.1rem solid rgba(34, 34, 34, 0.2);
-  -webkit-box-shadow: 0 0 1rem 0.2rem rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 1rem 0.2rem rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 3rem 0.4rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3rem 0.4rem rgba(0, 0, 0, 0.1);
   height: 60rem;
   background-position: center 2rem;
   background-repeat: no-repeat;
@@ -257,6 +262,10 @@ a {
   transition: -webkit-transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+.flex-container:hover{
+    scale: 0.995;
 }
 
 .flex-container {
@@ -334,6 +343,7 @@ a {
   margin: 0 auto;
 }
 
+
 .ours{
     background: linear-gradient(0deg, #eed6c5 0%, rgba(255,243,228,1) 100%);
 }
@@ -355,7 +365,9 @@ a {
   margin: 0 auto;
   float: left;
   scale: 1.5;
+
 }
+
 
 .story-img.floatRight {
   float: right;
@@ -365,10 +377,12 @@ a {
 
 .story-heading {
   text-decoration: overline;
+  cursor: default;
 }
 
 .story-text {
   margin-top: 2rem;
+  cursor: default;
 }
 
 /* CONTACT SECTION */
