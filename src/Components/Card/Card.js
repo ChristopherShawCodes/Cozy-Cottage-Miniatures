@@ -20,8 +20,8 @@ const Card = () => {
         <div class="container">
 
             <div class="card staged-active" >
-                <div class="card-icon-container">
-                    <img class="card-icon" src={shopIcon}/>
+                <div class="card-icon-container shop-container">
+                    <img class="card-icon" src={shopIcon} id='shop-icon'/>
                     <span className='card-icon-text'>
                         <a href="https://www.etsy.com/shop/CozyCottageMiniature" target="_blank" rel='noreferrer'>SHOP</a>
                     </span>                

@@ -15,7 +15,7 @@
 
 .container {
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
   justify-content: center;
 }
 
@@ -179,5 +179,15 @@
 
   .shop-container{
     border-radius: 50%;
+  }
+
+  .card-icon-container{
+    border-radius: 2rem;
+  }
+
+}
+@media only screen and (min-width: 600px){
+  .shop-container{
+    border-radius: 2rem;
   }
 }
