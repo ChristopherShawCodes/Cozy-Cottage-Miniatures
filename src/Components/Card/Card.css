@@ -26,7 +26,6 @@
   max-height: 50rem;
   background-color: #FFF3E4;
   border: none;
-  opacity: 0.9;
 }
 
 
@@ -126,6 +125,7 @@
   font-size: 1.7rem;
   display: none;
   text-align: justify;
+  cursor: default;
 }
 
 .card:hover p {
@@ -152,8 +152,12 @@
   border: 2px solid white;
 }
 
+.card-image{
+  opacity: 0.9;
+}
+
 .card:hover .card-image {
-  filter: brightness(70%);
+  filter: brightness(40%);
 }
 
 
