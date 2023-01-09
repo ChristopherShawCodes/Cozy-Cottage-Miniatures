@@ -13,13 +13,14 @@ const Home = () => {
   return (
     <div>
         <header id="header">
-    <nav id="nav-bar">
-      <ul className="nav-link__container">
-        <li className="nav-list"><a href="#shop" className="nav-link">our miniatures</a></li>
-        <li className="nav-list"><a href="#inspired" className="nav-link">get inspired</a></li>
-        <li className="nav-list"><a href="#follow" className="nav-link">Follow us</a></li>
-      </ul>
-    </nav>
+          <nav id="nav-bar">
+            <ul className="nav-link__container">
+              <li className="nav-list"><a href="https://www.etsy.com/shop/CozyCottageMiniature" target="_blank" rel="noreferrer" className="nav-link">Shop</a></li>
+              <li className="nav-list"><a href="#why" className="nav-link">Why miniatures</a></li>
+              <li className="nav-list"><a href="#follow" className="nav-link">Follow us</a></li>
+            </ul>
+          </nav>
+    
     <div className="header__text-box">
       <h1 className="heading-primary">
         <img src={logo} alt="Logo" id="header-img" />
@@ -29,7 +30,7 @@ const Home = () => {
     </div>
   </header>
 
-    <Card/>
+    <Card className='card'/>
 
 
 
@@ -46,7 +47,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="story-bg why">
+        <div className="story-bg why" id="why">
           <div className="story-row textLeft">
             <img src={why}alt="story why" className="story-img floatRight" />
             <h2 className="story-heading" id='color-correct'>Why Miniatures ?</h2>

@@ -4,12 +4,12 @@
   --border-radius: 5rem;
   --image-scale: 0.5;
   --card-width: 8%;
-  --active-card-width: 70%;
+  --active-card-width: 85%;
   --card-height: 80vh;
   --transition-time: 0.3s;
   --card-icon-bottom: 30px;
   --card-icon-left: 50%;
-  --active-card-icon-left: 4rem;
+  --active-card-icon-left: 2rem;
 }
 
 
@@ -26,16 +26,27 @@
   max-height: 50rem;
   background-color: #FFF3E4;
   border: none;
+  opacity: 0.9;
 }
 
 
 .card:hover {
   width: var(--active-card-width);
+  scale: 1.04;
+}
+
+.active{
+  width: var(--active-card-width);
+  height: 100%;
+}
+
+.staged-active{
+    width: 40%;
+    height: 100%;
 }
 
 .card .card-icon-container {
   position: absolute;
-  border-radius: 50%;
   padding: 2.2rem;
   border: 5px solid white;
   bottom: var(--card-icon-bottom);
@@ -49,30 +60,39 @@
 
 
 .card-icon{
-  scale: 1.5;
+  scale: 2;
 }
 
-.shop-icon{
-  scale: 1.8;
-}
+
 .card-icon-text{
   transform: translateX(-40%);
   font-size: 2rem;
+  font-weight: bold;
 }
 
 
 .shop-icon-text{
   transform: translateX(50%);
   font-size: 2rem;
-
+  font-weight: bold;
 }
 
 .card-icon-container{
-  max-width: 20rem;
-  max-height: 12rem;
-  background-color: var(--brownColor);
+  max-width: 16rem;
+  max-height: 10rem;
+  background-color: #EED6C4;
   cursor: pointer;
+  border-radius: 50%;
 }
+
+.shop-container{
+  max-width: 16rem;
+  max-height: 10rem;
+  background-color: #EED6C4;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
 
 .card-icon-container:hover{
  scale: 1.1;
@@ -85,8 +105,8 @@
 }
 
 .card .card-icon-container > span {
-  color: white;
-  margin: 10px;
+  color: var(--brownColor);
+  margin: 20px;
   display: none;
 }
 
@@ -133,5 +153,27 @@
 }
 
 .card:hover .card-image {
-  filter: brightness(50%);
+  filter: brightness(70%);
+}
+
+
+@media only screen and (max-width: 600px){
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .card{
+    width: 84%;
+    left: 8%;
+    margin-bottom: 1rem;
+  }
+
+  .active{
+    width: 30rem;
+  }
+
+  .shop-container{
+    border-radius: 50%;
+  }
 }
