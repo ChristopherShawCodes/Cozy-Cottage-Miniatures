@@ -3,9 +3,10 @@ import logo from './Images/logo.png'
 import shop from './Images/shop.jpeg'
 import inspiration from './Images/inspiration.jpeg'
 import follow from './Images/follow.jpeg'
-import miniature from './Images/our-miniatures.png'
+import miniature from './Images/miniature.png'
 import creative from './Images/creative.png'
 import academic from './Images/academic.png'
+import professional from './Images/professional.png'
 import thanks from './Images/thanks.png'
 import why from './Images/why.png'
 
@@ -68,7 +69,7 @@ const Home = () => {
       </div>
 
 
-      <div className="story-wrap ours">
+      <div className="story-wrap">
         <div className="story-bg ours">
           <div className="story-row">
             <img src={miniature} alt="story start" className="story-img" />
@@ -113,7 +114,7 @@ const Home = () => {
 
         <div className="story-bg professional">
           <div className="story-row">
-            <img src={academic} alt="story professional" className="story-img" />
+            <img src={professional} alt="story professional" className="story-img" />
             <h2>#3</h2>
             <h2 className="story-heading">Professional Presentations</h2>
             <p className="story-text">
@@ -155,7 +156,7 @@ const Home = () => {
   <footer id="footer">
       <img src={logo} alt="" className="footer-img" />
     <p className="footer-text">
-      Cozy Cottage Miniatures &copy; 2022
+      Cozy Cottage Miniatures &copy; 2023
     </p>
   </footer>
 

@@ -79,6 +79,8 @@ body {
   line-height: 1.5;
   color: var(--darkColor);
   background-color: var(--mainBodyColor);
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
 }
 
 
@@ -333,36 +335,10 @@ a {
 }
 
 .ours{
-    background: rgb(238,214,196);
-    background: linear-gradient(0deg, rgba(238,214,196,1) 0%, rgba(255,243,228,1) 41%);
-}
-
-.story-bg.why {
-    background: rgb(238,214,196);
-}
-
-.story-bg.creative {
-    background: rgb(107,79,79);
-    background: linear-gradient(0deg, rgba(107,79,79,1) 2%, rgba(238,214,196,1) 100%);}
-
-
-.story-bg.academic {
-    background: rgb(72,52,52);
-    background: linear-gradient(0deg, rgb(119, 86, 86) 0%, rgba(107,79,79,1) 100%);
-
+    background: linear-gradient(0deg, #eed6c5 0%, rgba(255,243,228,1) 100%);
 }
 
 
-.professional{
-    background: rgb(107,79,79);
-    font-weight: 900;
-    background: linear-gradient(0deg, rgb(116, 88, 88) 0%, rgba(119,86,86,1) 100%);}
-
-
-.story-bg.thanks{
-    background: rgb(238,214,196);
-    background: linear-gradient(0deg, rgba(238,214,196,1) 0%, rgb(117, 88, 88) 100%);
-}
 
 .story-row {
   width: 80%;
@@ -378,6 +354,7 @@ a {
   width: 25rem;
   margin: 0 auto;
   float: left;
+  scale: 1.5;
 }
 
 .story-img.floatRight {
@@ -402,7 +379,7 @@ a {
     padding-top: 25%;
     background: none;
     background: rgb(255,243,228);
-    background: linear-gradient(0deg, rgba(255,243,228,1) 0%, rgb(241, 213, 195) 100%);
+    background: linear-gradient(0deg, rgba(255,243,228,1) 0%, #eed6c5 100%);
 }
 
 .contact-section {
@@ -545,17 +522,20 @@ a {
   }
 }
 
+@media (min-width: 1024px) {
+    .shop{
+        margin-bottom: 25rem;
+    }
+  }
+
 @media (max-width: 500px) {
     .inspired{
         font-size: 2.4rem;
     }
-    .learn-more{
-        padding-top: 2rem;
 
-    }
     .shop {
         max-width: 100%;
-        max-height: 56vh;
+        max-height: 44rem;
     }
   .story-heading {
     clear: both;
