@@ -1,0 +1,137 @@
+
+
+:root {
+  --border-radius: 5rem;
+  --image-scale: 0.5;
+  --card-width: 8%;
+  --active-card-width: 70%;
+  --card-height: 80vh;
+  --transition-time: 0.3s;
+  --card-icon-bottom: 30px;
+  --card-icon-left: 50%;
+  --active-card-icon-left: 4rem;
+}
+
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  width: var(--card-width);
+  transition: all var(--transition-time) linear;
+  position: relative;
+  max-height: 50rem;
+  background-color: #FFF3E4;
+  border: none;
+}
+
+
+.card:hover {
+  width: var(--active-card-width);
+}
+
+.card .card-icon-container {
+  position: absolute;
+  border-radius: 50%;
+  padding: 2.2rem;
+  border: 5px solid white;
+  bottom: var(--card-icon-bottom);
+  left: var(--card-icon-left);
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+
+.card-icon{
+  scale: 1.5;
+}
+
+.shop-icon{
+  scale: 1.8;
+}
+.card-icon-text{
+  transform: translateX(-40%);
+  font-size: 2rem;
+}
+
+
+.shop-icon-text{
+  transform: translateX(50%);
+  font-size: 2rem;
+
+}
+
+.card-icon-container{
+  max-width: 20rem;
+  max-height: 12rem;
+  background-color: var(--brownColor);
+  cursor: pointer;
+}
+
+.card-icon-container:hover{
+ scale: 1.1;
+}
+
+.card:hover .card-icon-container {
+  border-radius: 2rem;
+  left: var(--active-card-icon-left);
+  transform: translateX(0);
+}
+
+.card .card-icon-container > span {
+  color: white;
+  margin: 10px;
+  display: none;
+}
+
+.card:hover .card-icon-container > span {
+  display: block;
+  opacity: 0;
+  animation: fade 1s linear 0.5s forwards;
+}
+
+
+.card p {
+  position: absolute;
+  color: white;
+  bottom: 30%;
+  z-index: 12;
+  padding: 3rem;
+  font-size: 1.7rem;
+  display: none;
+  text-align: justify;
+}
+
+.card:hover p {
+  display: block;
+  opacity: 0;
+  animation: fade 1s linear 0.5s forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card .card-image {
+  width: 100%;
+  height: var(--card-height);
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius);
+  border: 2px solid white;
+}
+
+.card:hover .card-image {
+  filter: brightness(50%);
+}

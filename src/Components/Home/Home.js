@@ -1,14 +1,13 @@
 import './Home.css'
 import logo from './Images/logo.png'
-import shop from './Images/shop.jpeg'
-import inspiration from './Images/inspiration.jpeg'
-import follow from './Images/follow.jpeg'
 import miniature from './Images/miniature.png'
 import creative from './Images/creative.png'
 import academic from './Images/academic.png'
 import professional from './Images/professional.png'
 import thanks from './Images/thanks.png'
 import why from './Images/why.png'
+import Card from '../Card/Card'
+
 
 const Home = () => {
   return (
@@ -28,53 +27,14 @@ const Home = () => {
         <span className="heading-primary-sub">That warm cozy feeling in a small package. </span>
       </h1>
     </div>
- 
   </header>
 
-  <main className="content-container">
-    <div className="main-content">
-
-      
-      <div className="main__content-flex">
-
-        <div className="flex-container" id='shop'>
-          <div className="flexbox shop">
-            <img src={shop} alt='shop'></img>
-            <p>
-              Come visit our shop and browse through our unique selection of items!
-            </p>
-            <a href='https://www.etsy.com/shop/CozyCottageMiniature?ref=simple-shop-header-name&listing_id=1385277771' target='_blank' rel='noreferrer'>
-              <button onclick="this.focus()" className="learn-more">
-                View Shop</button></a>
-          </div>
-        </div>
-
-        <div className="flex-container" id='inspired'>
-          <div className="flexbox shop" id='inspiration'>
-            <img src={inspiration} alt='inspiration'></img>
-            <p>
-              Check out our inspiration board for some creative ideas and inspiration for your next project or event!           
-            </p>
-            <a href='https://www.instagram.com/cozycottageminiatures/' target='_blank' rel='noreferrer'>
-              <button onclick="this.focus()" className="learn-more inspired ">
-                Get Inspired</button></a>
-          </div>
-        </div>
-
-        <div className="flex-container" id='follow'>
-          <div className="flexbox shop">
-            <img src={follow} alt='follow'></img>
-            <p>
-              Follow us to stay up-to-date on our latest products, sales, and more!            
-            </p>
-          <a href='https://twitter.com/cozycottagemini' target='_blank' rel='noreferrer'>
-          <button onclick="this.focus()" className="learn-more">
-            Follow Us</button></a>
-          </div>
-        </div>
-      </div>
+    <Card/>
 
 
+
+    <main className="content-container">
+      <div className="main-content">
       <div className="story-wrap">
         <div className="story-bg ours" id='shop-img'>
           <div className="story-row">
