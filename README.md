@@ -1,1 +1,1 @@
-Store front react app created for Cozy Cottage Miniatures
+This is a react built application for a miniature furniture store. It is deployed via netlify with a custom domain from namecheap.
