@@ -35,9 +35,10 @@ const Card = () => {
 
             <div class="card">
                 <div class="card-icon-container">
-                    <img class="card-icon" src={inspirationIcon} alt='card-icon'/>
                     <span className='card-icon-text'>
-                        <a href="https://www.instagram.com/cozycottageminiatures/" target="_blank" rel='noreferrer'></a>
+                        <a href="https://www.instagram.com/cozycottageminiatures/" target="_blank" rel='noreferrer'>
+                            <img class="card-icon" src={inspirationIcon} alt='card-icon'/>
+                        </a>
                     </span>
                 </div>
                 <p>
@@ -50,9 +51,10 @@ const Card = () => {
 
             <div class="card">
                 <div class="card-icon-container">
-                    <img class="card-icon" src={followIcon} alt='card-icon'/>
                     <span className='card-icon-text'>
-                        <a href="https://twitter.com/cozycottagemini" target="_blank" rel='noreferrer'></a>
+                        <a href="https://twitter.com/cozycottagemini" target="_blank" rel='noreferrer'>
+                            <img class="card-icon" src={followIcon} alt='card-icon'/>
+                        </a>
                     </span>
                 </div>
                 <p>

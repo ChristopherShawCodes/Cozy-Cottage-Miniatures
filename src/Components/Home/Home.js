@@ -44,7 +44,7 @@ const Home = () => {
             <img src={why}alt="story why" className="story-img floatRight" />
             <h2 className="story-heading" id='color-correct'>Why Miniatures ?</h2>
             <p className="story-text">
-            Miniature furniture is important for a few reasons. It also serves as a fun and challenging hobby for collectors and enthusiasts, as they search for and arrange the perfect pieces in their miniature world. Finally, miniature furniture allows for creativity and design, as individuals can decorate and create their dream miniature home.
+            Miniature furniture serves as a fun and challenging hobby for collectors and enthusiasts, as they search for and arrange the perfect pieces in their miniature world. Additionally, miniature furniture allows for creativity and design, as individuals can decorate and create their dream miniature home.
             </p>
           </div>
         </div>

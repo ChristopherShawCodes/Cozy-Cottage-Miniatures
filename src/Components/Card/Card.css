@@ -62,7 +62,7 @@
 
 
 .card-icon{
-  scale: 2;
+  scale: 3;
 }
 
 
@@ -80,12 +80,13 @@
 }
 
 .card-icon-container{
-  max-width: 16rem;
+  max-width: 18rem;
   max-height: 10rem;
   background-color: #EED6C4;
   cursor: pointer;
   border-radius: 50%;
 }
+ 
 
 .shop-container{
   max-width: 16rem;
@@ -163,6 +164,7 @@
 }
 
 
+
 @media only screen and (max-width: 600px){
   .container{
     flex-wrap: wrap;
@@ -193,7 +195,7 @@
     border-radius: 2rem;
   }
   #shop-icon{
-    scale: 3.3;
+    scale: 2.5;
   }
 }
 

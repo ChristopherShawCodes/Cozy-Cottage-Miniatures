@@ -215,74 +215,10 @@ a {
   justify-content: center;
 }
 
-.flexbox {
-  border-radius: 1rem;
-  border: 0.1rem solid rgba(34, 34, 34, 0.2);
-  -webkit-box-shadow: 0 0 3rem 0.4rem rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3rem 0.4rem rgba(0, 0, 0, 0.1);
-  height: 60rem;
-  max-width: 40rem;
-  background-position: center 2rem;
-  background-repeat: no-repeat;
-  background-size: 25rem;
-  margin: 3rem;
-  -ms-flex-preferbrown-size: 40rem;
-  flex-basis: 40rem;
-  -webkit-transition: -webkit-transform 0.25s ease-in-out;
-  transition: -webkit-transform 0.25s ease-in-out;
-  transition: transform 0.25s ease-in-out;
-  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
-  max-width: 100%;
-  max-height: 70vh;
-}
-
-.flex-container:hover{
-    scale: 0.997;
-}
-
-.flex-container {
-  -ms-flex-preferbrown-size: 25rem;
-  flex-basis: 30;
-  max-width: 100%;
-}
-
-
-.learn-more {
-  font-size: 3rem;
-  color: var(--brownColor);
-  border-top: 1px solid var(--brownHoverColor);
-  border-bottom: 1px solid var(--brownHoverColor);
-}
-
-.follow-btn, .inspiration-btn, .shop-btn{
-    position: absolute;
-    transform: translateY(100%);
-    right: 20%;
-    opacity: 0.4;
-}
-
-.follow-btn:hover, .inspiration-btn:hover, .shop-btn:hover{
-    opacity: 1;
-}
 
 
 
-.shop, .inspiration {
-    max-width: 60%;
-    max-height: 80vh;
-}
 
-.shop img{
-    max-width: 100%;
-}
-
-.shop p,.inspiration-text{
-    transform: translateY(2rem);
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
-    overflow: hidden;
-}
 
 .follow{
     margin-top: 15%;
